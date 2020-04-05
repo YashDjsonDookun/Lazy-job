@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 520px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContent {
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    flex-flow: column;
+}
+
+.Btn:hover {
+    cursor: pointer;
+}
+
+.BtnSubmit:hover {
+    cursor: pointer;
+}
+
+input#BrowseFile {
+    position: absolute;
+    z-index: 1;
+    top: 162px;
+    width: 225px;
+    margin-left: 27px;
+    opacity: 0;
+}
+
+input#BrowseFile:hover {
+    cursor: pointer;
+}
+
+#img3 {
+    position: relative;
+}
+
+input#radio1 {
+    position: absolute;
+    top: 143px;
+    z-index: 1;
+    top: 143px;
+    margin-left: 31px;
+}
+
+input#radio1:hover {
+    cursor: pointer;
+}
+
+input#radio2 {
+    position: absolute;
+    z-index: 1;
+    top: 198px;
+    margin-left: 31px;
+}
+
+input#radio2:hover {
+    cursor: pointer;
+}
+
+input#coverLetterCheck {
+    position: absolute;
+    z-index: 1;
+    top: 310px;
+    margin-left: 32px;
+    transform: scale(1.2);
+}
+
+input#FName {
+    position: absolute;
+    z-index: 1;
+    top: 421px;
+    height: 20px;
+    margin-left: 105px;
+    width: 117px;
+}
+
+input#LName {
+    position: absolute;
+    z-index: 1;
+    top: 421px;
+    height: 20px;
+    margin-left: 331px;
+    width: 117px;
+}
+
+input#Addr1 {
+    position: absolute;
+    z-index: 1;
+    top: 458px;
+    height: 20px;
+    margin-left: 126px;
+    width: 204px;
+}
+
+input#Addr2 {
+    position: absolute;
+    z-index: 1;
+    top: 495px;
+    height: 20px;
+    margin-left: 126px;
+    width: 204px;
+}
+
+input#City {
+    position: absolute;
+    z-index: 1;
+    top: 533px;
+    height: 20px;
+    margin-left: 70px;
+    width: 117px;
+}
+
+input#Country {
+    position: absolute;
+    z-index: 1;
+    top: 569px;
+    height: 20px;
+    margin-left: 83px;
+    width: 204px;
+}
+
+input#HomePhone {
+    position: absolute;
+    z-index: 1;
+    top: 607px;
+    height: 20px;
+    margin-left: 113px;
+    width: 117px;
+}
+
+input#MobilePhone {
+    position: absolute;
+    z-index: 1;
+    top: 607px;
+    height: 20px;
+    margin-left: 339px;
+    width: 117px;
+}
+
+input#email {
+    position: absolute;
+    z-index: 1;
+    top: 646px;
+    height: 20px;
+    margin-left: 77px;
+    width: 152px;
+}
+
+button.btn.btn-primary {
+    position: absolute;
+    top: 697px;
+    margin-left: -2px;
+    border: none;
+}
+
+.imgSend {
+    position: absolute;
+    height: 26px;
+    width: 78px;
+}
+
+input.btn.wrapper2 {
+    display: block;
+}
+
+.line {
+    background: rgba(0, 0, 0, 0.452);
+    height: 1px;
+}
